@@ -17,4 +17,4 @@ jobs:
         remote_path: ~/
         remote_host: ec2-3-133-38-120.us-east-2.compute.amazonaws.com
         remote_user: ubuntu
-        remote_key: ${{ secrets.DEPLOY_KEY }}
+        remote_key: ${{ DEPLOY_KEY }}
